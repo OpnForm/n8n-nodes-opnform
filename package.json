@@ -17,11 +17,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OpnForm/OpnForm.git",
-    "directory": "integrations/n8n"
+    "url": "https://github.com/OpnForm/n8n-nodes-opnform"
   },
   "bugs": {
-    "url": "https://github.com/OpnForm/OpnForm/issues"
+    "url": "https://github.com/OpnForm/n8n-nodes-opnform/issues"
   },
   "main": "dist/index.js",
   "files": [

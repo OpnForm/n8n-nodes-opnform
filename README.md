@@ -37,6 +37,37 @@ npm run build
 
 Then in your n8n instance, install this package or load it as a local custom node per n8n docs.
 
+## Release your node
+
+To publish your node to npm, run the `release` command in your project directory:
+
+```bash
+n8n-node release
+```
+
+Or using npm:
+
+```bash
+npm run release
+```
+
+Before running the release command, you must be logged into npm:
+
+```bash
+npm login
+```
+
+When you run the `release` command, `n8n-node` will perform the following actions:
+
+- Build the node
+- Run lint checks against your files
+- Update the changelog
+- Create git tags
+- Create a GitHub release
+- Publish the package to npm
+
+For more details, see the [n8n-node release documentation](https://docs.n8n.io/integrations/creating-nodes/build/n8n-node/#release-your-node).
+
 ## Authentication
 
 ### Creating a Personal Access Token
