@@ -32,8 +32,23 @@ This integration uses the following OpnForm API endpoints:
 ```bash
 # From this directory
 npm install
-npm run build
 ```
+
+### Development Commands
+
+- **Local Development** (default):
+
+  ```bash
+  n8n-node dev
+  ```
+
+  This will watch for changes and automatically rebuild the node as you develop.
+
+- **Linting**:
+  ```bash
+  n8n-node lint
+  ```
+  Run lint checks against your files.
 
 Then in your n8n instance, install this package or load it as a local custom node per n8n docs.
 
